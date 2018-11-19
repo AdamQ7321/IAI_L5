@@ -1,0 +1,67 @@
+
+.navbar{
+
+
+
+}
+
+
+body {
+
+
+
+    background:black  url(../zdjecie/symbol01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1px 1px 2200px;
+}
+ul, li {
+    margin-left: 5px;
+    text-align: center;
+    display:inline;
+    color: Pink;
+    background: darkgreen;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+img{
+
+    margin-right: 15px;
+    margin-bottom: 8px;
+    border: 1px solid silver;
+    background: white; padding: 4px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px silver;
+
+}
+iframe{
+
+    width: 100%;
+}
+.srodek{
+    text-align: center;
+    letter-spacing: 0.5mm;
+    border: 8px double;
+    padding: 5px;
+    color:green;
+}
+.MyButton {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 45px;
+    z-index: 99;
+    font-size: 14px;
+    border: solid;
+    outline: none;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 4px;
+}
+
+.MyButton:hover {
+    background-color: green;
+}
